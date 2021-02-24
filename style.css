@@ -1,0 +1,114 @@
+#bande
+{
+	/*background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color:rgb(116,176,90);*/
+	background:url("images/logo.png");
+	background-size: cover;
+	width: 100%;
+	height: 280px;
+}
+
+.citation
+{
+	font-size: 18px;
+	color: rgb(32,74,75);
+	font-style: italic;
+	text-align: center;
+}
+
+.auteur
+{
+	color: rgb(32,74,75);
+	font-size: 16px;
+	text-align: center;
+	/*(184,106,4)*/
+}
+
+#accueil
+{
+	background:url("images/ext.jpeg"), url("images/produit.jpeg");
+	background-size: cover;
+	width: 100%;
+	height:800px;
+
+}
+h1
+{
+	text-align: center;
+	color: rgb(26,97,22);
+	font-size: 50px;
+	font-weight: bold;
+	/*background-image: url("images/cailloux.jpg");*/
+	height: 100px;
+	padding: 1em;
+}
+h2
+{
+	font-size: 30px;
+	text-align: left;
+	color: rgb(3,128,44);
+	text-shadow: 6px 6px 4px green;
+}
+
+h3
+{
+	color:orange;
+	font-style: italic;
+}
+
+
+
+p
+{
+	width: 70%;
+	margin: auto;
+	overflow: auto;
+	text-align: justify;
+}
+a
+{
+	text-decoration: none;
+
+}
+a:hover /*lien au survol */
+{
+	color : green;
+	text-decoration: underline;
+}
+
+#conteneur
+{
+	display: flex; /*flex ne marche pas, elements poujours rangés en 3 lignes*/
+	justify-content: space-between;
+	align-items: center;
+	border: 100%; /*il prend toute la largeur de la page*/
+	border-color: green;
+	border-style: solid;
+	background-color: rgba(56,133,52,0.6); /*rgba (R,G,B,opacity)*/
+	box-shadow: 6px 6px 4px green; /*valeur alignement horizontal, vertical, transparence, couleur*/
+
+}
+.element
+{
+	width: 150px;
+	height: 30px;
+    padding: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(54,36,11);
+}
+
+/*.element:nth-child(1) /*première bloc de l'element
+{
+	background-color: orange;
+}
+.element:nth-child(2) /*2eme bloc de l'element
+{
+	background-color: blue;
+}
+.element:nth-child(3) /*3eme bloc de l'element
+{
+	background-color: pink;
+}*/
